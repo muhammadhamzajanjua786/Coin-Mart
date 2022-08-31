@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Title_V1">
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="Title_V2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+
+    <style name="SubTitle_V1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="SubTitle_V1_NORMAL" parent="SubTitle_V1">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+
+</resources>
