@@ -43,6 +43,7 @@ class DashboardFragment : Fragment() {
     private fun setupData(data: CurrentPriceResponse) {
         binding.apply {
             shimmer.visibility = View.GONE
+            //ksldjsklajdlk
             container.visibility = View.VISIBLE
             tvChartName.text = data.chartName
             tvTime.text = data.time.updated
