@@ -24,6 +24,8 @@ class DashboardViewModel @Inject constructor(
         getCurrentPrice()
     }
 
+    //ADDITIONAL
+
     private fun getCurrentPrice() {
         viewModelScope.launch {
             repo().collectLatest { response ->
